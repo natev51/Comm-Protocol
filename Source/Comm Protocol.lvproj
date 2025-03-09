@@ -11,10 +11,8 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="Serial" Type="Folder">
-			<Item Name="Serial.lvclass" Type="LVClass" URL="../Serial/Serial.lvclass"/>
-		</Item>
-		<Item Name="Communication.lvclass" Type="LVClass" URL="../Communication/Communication.lvclass"/>
+		<Item Name="Comm Protocol.lvclass" Type="LVClass" URL="../Comm Protocol/Comm Protocol.lvclass"/>
+		<Item Name="Serial.lvclass" Type="LVClass" URL="../Serial/Serial.lvclass"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Stall Data Flow.vim" Type="VI" URL="/&lt;vilib&gt;/Utility/Stall Data Flow.vim"/>
