@@ -11,6 +11,10 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
+		<Item Name="Palette" Type="Folder">
+			<Item Name="BD Comm Protocol.vi" Type="VI" URL="../Palette/BD Comm Protocol.vi"/>
+			<Item Name="FP Comm Protocol.vi" Type="VI" URL="../Palette/FP Comm Protocol.vi"/>
+		</Item>
 		<Item Name="Comm Protocol.lvclass" Type="LVClass" URL="../Comm Protocol/Comm Protocol.lvclass"/>
 		<Item Name="Serial.lvclass" Type="LVClass" URL="../Serial/Serial.lvclass"/>
 		<Item Name="Dependencies" Type="Dependencies">
